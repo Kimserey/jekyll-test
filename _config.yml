@@ -2,6 +2,11 @@ collections:
   authors:
     output: true
 
+sass:
+  load_paths:
+    - _sass
+    - vendor/bundle/gems/bootstrap-4.1.3/assets/stylesheets
+
 defaults:
   - scope:
       path: ""
